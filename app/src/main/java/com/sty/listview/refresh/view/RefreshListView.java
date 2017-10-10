@@ -1,7 +1,6 @@
 package com.sty.listview.refresh.view;
 
 import android.content.Context;
-import android.icu.text.SimpleDateFormat;
 import android.os.Build;
 import android.support.annotation.RequiresApi;
 import android.util.AttributeSet;
@@ -17,6 +16,8 @@ import android.widget.ProgressBar;
 import android.widget.TextView;
 
 import com.sty.listview.refresh.R;
+
+import java.text.SimpleDateFormat;
 
 /**
  * 包含下拉刷新功能的ListView
